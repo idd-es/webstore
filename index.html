@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>DR.BRONNER'S | Product page</title>
+    <meta name="description" content="Dr.Bronner's">
+    <meta name="EunsongKim" content="Eunsong Kim">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,700|Roboto:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+
+    <header>    
+      <div class="wrapper">
+        <div class="header-grid">      
+          <div class="header-blank"></div>
+          <h1><a href="index.html"><p>DR.BRONNER'S</p></a></h1>
+          <ul>
+              <li><a href="#"><span class="material-icons white">favorite_border</span></a></li>
+              <li><a href="#"><span class="material-icons white">shopping_cart</span></a></li>
+              <form>
+                  <label>
+                    <input type="search" name="find" id="find">
+                  </label>
+                  <button type="button"><span class="material-icons white">search</span></button>
+              </form>
+            </ul>
+        </div>
+      </div>
+    </header>
+
+    <nav>
+      <div class="wrapper">
+        <button type="button" onclick="dropFunction()" class="dropbtn"><span class="material-icons white">subject</span></button>
+        <ul class="list-menu" id="dropDown">
+          <li><a href="#">All</a></li>
+          <li><a href="#">body care</a></li>
+          <li><a href="#">home care</a></li>
+          <li><a href="#">food</a></li>
+          <li><a href="#">gift ideas</a></li>
+          <li><a href="#">monthly specials</a></li>
+          <li><a href="#">about</a></li>
+          <li><a href="#"">all-one blog</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="banner">
+      <p>All</p>
+    </div>
+    
+    <aside >
+        <div class="wrapper">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li class="triangle"><div></div></li>
+            <li><a href="#">Store</a></li>
+            <li class="triangle"><div></div></li>
+            <li><a href="index.html">All</a></li>
+          </ul>
+        </div>
+    </aside>
+
+    <main class="wrapper"> 
+        <select name="productCategory" id="productCategory" class="category">
+            <option value="all">All</option>
+            <option value="peppermint">Peppermint</option>
+            <option value="baby">Baby unscented</option>
+            <option value="lavender">Lavender</option>
+            <option value="almond">Almond</option>
+            <option value="citrus">Citrus</option>
+            <option value="teatree">Tea tree</option>
+            <option value="rose">Rose</option>
+            <option value="eucalyptus">Eucalyptus</option>
+            <option value="lemongrass">Lemongrass</option>
+          </select>
+    
+          <button id="toggleView" class="btn-view"><span class="material-icons">list_alt</span></button>
+          <section id="products" class="products"></section>
+    </main>
+
+    <footer>
+      <div class="wrapper">
+        <div class="footer-top">
+          <div class="footer-list">
+            <ul>
+              <h3>About</h3>
+              <li><a href="#">All-One Blog</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Media Center</a></li>
+              <li><a href="#">Event</a></li>
+              <li><a href="#">Lisa Bronner's Blog </a></li>
+            </ul>
+          </div>
+          <div class="footer-list-2">
+            <ul>
+              <h3>pure castile liqud soap</h3>
+              <li><a href="#">pure castile bar soap</a></li>
+              <li><a href="#">body care</a></li>
+              <li><a href="#">home care</a></li>
+              <li><a href="#">shop all collections</a></li>
+            </ul>
+          </div>
+          <div class="footer-list-3">
+            <ul>
+              <h3>hopping & returns</h3>
+              <li><a href="#">store locator</a></li>
+              <li><a href="#">in-store callendar</a></li>
+              <li><a href="#">wholesale</a></li>
+              <li><a href="#">international distributors</a></li>
+            </ul>
+          </div>
+          <div class="footer-list-4">
+            <ul>
+              <h3>Support</h3>
+              <li><a href="#">contact</a></li>
+              <li><a href="#">FAQs</a></li>
+              <li><a href="#">site map</a></li>
+            </ul>
+          </div>
+          <div class="sns">
+            <ul>
+              <h3>Connect with Dr.Bronner's</h3>
+              <li class="facebook"><a href="#"><img src="img/facebook.png" alt="facebook icon"></a></li>
+              <li class="twitter"><a href="#"><img src="img/twitter.png" alt="twitter icon"></a></li>
+              <li class="instagram"><a href="#"><img src="img/instagram.png" alt="instagram icon"></a></li>
+              <li class="pinterest"><a href="#"><img src="img/pinterest.png" alt="pinteres icon"></a></li>
+              <li class="youtube"><a href="#"><img src="img/youtube.png" alt="youtube icon"></a></li>
+              <li class="linkedin"><a href="#"><img src="img/linkedin.png" alt="linkedin icon"></a></li>
+            </ul>
+          </div>
+          </div>
+          <div class="footer-bottom">
+            <p class="footer-bottom-text-1">In all we do, let us be generous, fair & loving to Spaceship Earth and all its inhabitants. For we're All-One or None! All-One!</p>
+            <p> &copy; 2019 Dr. Bronner's Magic Soaps <a href="#">Privacy Policy.</a> <a href="">Terms of Use.</a></p>
+          </div>
+      </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
